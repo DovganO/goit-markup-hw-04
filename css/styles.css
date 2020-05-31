@@ -155,14 +155,21 @@ img {
   align-items: center;
   padding: 0;
   border: none;
+  color: #afb1b8;
 }
 
-.contacts .picture {
+/* .contacts .picture {
   margin-right: 10px;
 }
+ */
 
-.icon {
+.contacts-icon {
   margin-right: 10px;
+  fill: currentColor;
+}
+
+.contacts-icon:hover {
+  fill: var(--accent-color);
 }
 
 /*Hero*/
@@ -227,7 +234,7 @@ img {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  /* padding: 100px 25px; */
+  border-radius: 4px;
   background-repeat: no-repeat;
   background-size: 70px 70px;
   background-position: center;
@@ -383,6 +390,27 @@ img {
   margin-left: 10px;
 }
 
+.networks .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+
+.networks-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.networks-icon:hover {
+  fill: #ffffff;
+}
+
 .link {
   display: block;
 }
@@ -415,6 +443,18 @@ img {
 
 .customers-list .item + .item {
   margin-left: 30px;
+}
+
+.customers-link {
+  color: #afb1b8;
+}
+
+.customers-icon {
+  fill: currentColor;
+}
+
+.customers-icon:hover {
+  fill: var(--accent-color);
 }
 
 /*Footer*/
@@ -553,6 +593,7 @@ img {
 
 .portfolio-button {
   border-radius: 4px;
+  border-color: transparent;
   padding: 6px 22px;
 
   background: #f5f4fa;
@@ -573,6 +614,7 @@ img {
 .portfolio-button:hover {
   color: #ffffff;
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .portfolio-list {
@@ -585,6 +627,7 @@ img {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-element:nth-child(3n) {
