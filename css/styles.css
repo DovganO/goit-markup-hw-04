@@ -407,9 +407,13 @@ img {
   fill: currentColor;
 }
 
-.networks-icon:hover {
+.networks .link:hover .networks-icon {
   fill: #ffffff;
 }
+
+/* .networks-icon:hover {
+  fill: #ffffff;
+} */
 
 .link {
   display: block;
